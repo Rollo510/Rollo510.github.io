@@ -11,6 +11,6 @@ I don't know what I'm doing.  I really don't.  Since I was a kid, I've been told
 
 There's a lot of careers that "feel necessary," so why Software Engineering specifically?  As a kid, I grew up alongside the Internet, learning to type early, and eventually becoming the best programmer in my 7th grade class; if you needed a song added to your MySpace / Xanga, everybody knew to show up to your meeting with me with at least 2, sometimes 3 packs of Gushers.  But despite this...inherent proficiency, I never pursued anything more related to Computer Science, and yet, all of my best friends did.  Even today, all of my closest friends are in IT or Software Engineering fields, and I can't help but feel like I missed out.  How different would my life be if I had gone along with my friends and taken classes in Computer Science way back when I was in high school?  I can't know, but maybe I'd be making 6 figures like they are, working for Cisco and Facebook and Google.  Nevertheless, it's too late to worry about what could have been; instead, my future in Software Engineering is staring back at me now, and it... seems angry and confused.  Just kidding, I'm looking at myself in the reflection of my monitor while working on this Tic Tac Toe lab.
 		
-		Wish me luck,
+Wish me luck,
 		
-		Kevin
+Kevin
