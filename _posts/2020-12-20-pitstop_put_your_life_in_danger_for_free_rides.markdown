@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "PITSTOP: Put your life in danger for free rides!"
-date:       2020-12-20 19:46:04 +0000
+date:       2020-12-20 14:46:05 -0500
 permalink:  pitstop_put_your_life_in_danger_for_free_rides
 ---
 
@@ -20,28 +20,43 @@ Perhaps the most challenging aspect of my project was getting the Google Maps AP
 
 4.)  The Google API Wrapper needs to actually wrap your container, so you should include it as such (assuming you're using mapStateToProps):
 
+```
+export default GoogleApiWrapper({
+    apiKey: `${API_KEY}`
+})(connect(mapStateToProps, { *Your Dispatch Functions* })(MapContainer));
+```
 
+5.) Now all you need to do is render a <Map /> and it should appear! Here are some additional helpful settings you may want to use when you create your <Map /> component:
 
+```
+<Map
+google={this.props.google}
+            style={mapStyles}
+            disableDoubleClickZoom
+            zoom={6}
+            initialCenter={{
+                lat: 31.7589382,
+                lng: -90.3676974,
+            }}
+```
 
+The zoom prop tells the map how zoomed-in to your initialCenter target the map should be.  You can tweak these settings as you'd like to have the map load focused on whatever lat and lng coordinates you provide.  Furthermore, you also can include <Marker /> components that will render the default Google Maps marker.  The most important prop for a <Marker /> is its position, which is an object with keys for lat and lng.  If you know where you want your Markers to be all of the time, you can simply map over your Markers array (whether in state or redux store -- in the below example, I use Redux):
 
+```
+return this.props.markers.map(
+                marker => {
+                    return (
+                        <Marker 
+                        key={marker.id}
+                        position={{ lat: marker.position.lat, lng: marker.position.lng }}
+                        />
+                    )
+                }
+            )
+```
 
+This will create Marker objects at the coordinates specified by your position!  Easy, right? Personally, I would suggest that you store your Markers into your Redux store, and have your MapContainer with a local state set to a marker object.  This way, no matter which component renders your MapContainer, you can easily pull your markers from global state and they'll handle the responsibility of rendering themselves instead of you having to create a function that does so in each new component.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Looking back at my completed project, the Google Maps API was easy to set up, but challenging to get all of the moving parts to work correctly and in conjunction with each other.  That being said, now that everything is up and running, I'm very proud of the completed project and the effort that I put into it.  As a capstone for everything that I've learned thus far, PITSTOP embodies all of my months of hard work.  Next time you want to roll the dice on a random trip to a place you've never been before, maybe you'll consider planning your adventure with PITSTOP!
 
 
