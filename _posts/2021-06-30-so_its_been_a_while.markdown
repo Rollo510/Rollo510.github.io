@@ -1,0 +1,19 @@
+---
+layout: post
+title:      "So it's been a while..."
+date:       2021-06-30 18:40:30 +0000
+permalink:  so_its_been_a_while
+---
+
+
+First of all, let me just say that I'm sorry for taking so long to update my blog with a new post.  I'm sure all of my zero fans have been eagerly awaiting any kind of update on my life (except you, mom, but we talk all the time anyway).  The truth is, I've been pretty busy.  Below are a few of the things that I've really been focusing on each day.
+
+Coding.  Hackerrank, Leetcode, etc. are all excellent ways for my programming mind to stay sharp and help me keep up with potential Software Engineering interview questions.  I try to do several problems a day on average, but the most important thing is making sure that I understand how the questions are solved, and not just making sure that they're done.  I'll touch more on this in a little bit.
+
+Copyediting.  I've recently started doing volunteer copyediting for a small group of authors that can't afford to hire someone AND publish their work.  This includes grant proposals, self-help books, and more.  I've always had a pretty good grasp on grammar and a very keen eye for detail that makes me an excellent copyeditor (great, now I'm going to have to go back and double-check everything I've ever written... actually, ya'll can give me a little bit of leniency, right?)  It's been a lot of fun getting to help people with something that I think doesn't receive a lot of credit.  For example, I read news articles from legitimate, respectable institutions that are riddled with spelling errors and missing words.  How do these articles get published with so many mistakes?  Honestly, I don't even understand how something like that happens. Anyway, rant aside, copyediting has been a lot of fun and I feel as though I am improving my reading comprehension by checking the copies for consistency and tone versus the rest of the document.  
+
+Volunteering.  As a History (and Communication) major, I love sharing the passion that I have for museums with all kinds of people.  In my spare time, I volunteer with the Houston Museum District to help out however I can.  Some days, I'll be at the Houston Zoo passing out brochures to families and helping guide them to various animal enclosures.  Other days, I'll be at the Houston Museum of Natural Science... well, basically doing the same, but without the animals.  History is something that has always really interested me, and there's no better feeling than doing what I can to make it fun for others. 
+
+Careering.  I worked as a Sales and Merchandising Manager for Coca-Cola for several years.  Each day, I communicated with almost every department (Warehouse, Production, Distribution, etc.) to ensure that some of our highest-priority national accounts were always loaded up on our products.  It's not difficult for me to say that I was extremely good at my job.  I'm really good with people, and I love working in a cross-functional capacity.  There's something about having everyone work together towards a common goal that vibes well with my personality.  Combine this previous professional experience with my recently developed Software Engineering skillset, and I know that I would be an extremely successful Technical Program Manager.  Of course, I have the soft skills, but in order to be successful, I need some direct mentorship.  Recently, I've been doing a lot of research and taking free courses online regarding Agile methodology and Project Management.  I'm still trying to find someone to intern with in this field, but my independent studies have been going well.  Without a doubt, I will keep trying until I make this career happen.
+
+And that's about it.  Thanks for reading, and again, sorry about the delay in posts.  I'll try to keep it updated more often! 
